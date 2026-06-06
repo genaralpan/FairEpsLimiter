@@ -21,8 +21,6 @@ import java.util.concurrent.atomic.LongAdder;
  *    - 发生竞争时：高优 IP 可无视预留水位直接获取底层令牌，低优 IP 被瞬间拦截，完美解决“提前发包导致其他IP饿死”的问题。
  * 4. 近似滑动窗口：采用 Cloudflare 双窗口加权算法估算 IP 速率，O(1) 时间与内存复杂度，彻底消除原先 O(N) 遍历造成的 CPU 瓶颈。
  *
- * @author liming
- * @date 2026-05-14
  */
 @Component
 public class FairEpsLimiter {
