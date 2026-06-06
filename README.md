@@ -349,14 +349,6 @@ private void slideWindow(long currentSec) {
 
 ---
 
-## 📧 联系方式
-
-- **作者**: liming
-- **创建日期**: 2026-05-14
-- **邮箱**: [your-email@example.com](mailto:your-email@example.com)
-
----
-
 ## 🙏 致谢
 
 - **Cloudflare**: 双窗口加权算法灵感来源
